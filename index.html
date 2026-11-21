@@ -92,6 +92,7 @@ footer{margin-top:4rem;color:var(--muted);font-size:.92rem}
         <button type="button" data-q="CNN">CNN</button>
         <button type="button" data-q="BM25">BM25</button>
         <button type="button" data-q="deployment">deployment</button>
+        <button type="button" data-q="prediction">prediction</button>
       </div>
       <p id="count" aria-live="polite"></p>
     </div>
@@ -114,6 +115,7 @@ footer{margin-top:4rem;color:var(--muted);font-size:.92rem}
       <div><dt>Databases</dt><dd>SQL, MySQL</dd></div>
       <div><dt>Tools</dt><dd>Power BI, Microsoft Office Suite, VS Code, Streamlit</dd></div>
       <div><dt>Core areas</dt><dd>Machine learning, deep learning, NLP, predictive analytics</dd></div>
+      <div><dt>Machine learning</dt><dd>Classification, Pandas, scikit-learn, Random Forest, clustering, time-series forecasting, regression</dd></div>
       <div><dt>Retrieval and LLMs</dt><dd>BM25, embedding-based search, query expansion, RAG and LLM applications</dd></div>
       <div><dt>Working style</dt><dd>Fast learner, adaptable, clear communicator, team collaboration on MS Teams</dd></div>
     </dl>
@@ -154,9 +156,11 @@ footer{margin-top:4rem;color:var(--muted);font-size:.92rem}
   var P=[
     {t:"Semantic Search Retrieval System",s:"Python, NLTK/spaCy, BM25",k:"search retrieval semantic bm25 keyword embedding similarity query expansion relevance nlp text unstructured information",
      b:["Built a retrieval pipeline that combines BM25 keyword search with embedding-based similarity search.","Processed unstructured text from external knowledge sources to support downstream analytics.","Added query expansion and retrieval optimisation to improve result relevance.","Measured retrieval quality with standard relevance metrics."]},
+    {t:"Heart Attack Prediction System",s:"Python, Random Forest, Logistic Regression, Streamlit",k:"heart attack prediction risk health patient machine learning logistic regression random forest classification streamlit web app real-time",
+     b:["Built a machine learning system that predicts heart attack risk from patient health data.","Trained and compared Logistic Regression and Random Forest models.","Developed an interactive Streamlit web app that gives real-time predictions for user inputs and shows a High Risk or Low Risk result."]},
     {t:"FinSolve Assistant: Secure Internal RAG Chatbot",s:"Python, LangChain, Qdrant, Streamlit, Groq",k:"rag chatbot llm langchain qdrant streamlit groq security rbac pii guardrails ragas pytest deployment cloud assistant",
      b:["Built a RAG chatbot with LangChain, Qdrant and GPT-OSS-120B, with role-based access control on retrieval of private company documents.","Added PII redaction, LLM guardrails, and automated evaluation with pytest and Ragas to protect security and answer quality.","Deployed on Streamlit Cloud with Qdrant Cloud, fixing dependency, indexing and secrets-management issues."]},
-    {t:"Potato Disease Classification",s:"TensorFlow, CNN, FastAPI, React, TensorFlow Lite, GCP",k:"cnn image classification deep learning tensorflow tflite mobile fastapi react gcp deployment disease leaf vision quantization api",
+    {t:"Potato Leaf Disease Classification",s:"TensorFlow, CNN, FastAPI, React, TensorFlow Lite, GCP",k:"cnn image classification deep learning tensorflow tflite mobile fastapi react gcp deployment disease leaf vision quantization api",
      b:["Built a CNN image classifier in TensorFlow that detects Early Blight, Late Blight and healthy potato leaves.","Quantised the model with TensorFlow Lite for mobile use, cutting its size to about 194 KB while keeping accuracy.","Built a FastAPI backend for real-time predictions and a React frontend for image upload and results."]}
   ];
   var syn={chatbot:"rag",image:"cnn",images:"cnn",mobile:"tflite",app:"deployment",deploy:"deployment",llm:"rag",vision:"cnn",find:"search",retrieve:"retrieval"};
